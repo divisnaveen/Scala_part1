@@ -1,0 +1,35 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set(E:\scala\Week2\FSet\src\main\scala\com\persist\FSet\FSet.scala)
+[debug] 	modified: Set()
+[debug] Removed products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(E:\scala\Week2\FSet\src\main\scala\com\persist\FSet\FSet.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(E:\scala\Week2\FSet\src\main\scala\com\persist\FSet\FSet.scala)
+[debug] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+[info] Compiling 1 Scala source to E:\scala\Week2\FSet\target\scala-2.11\classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.11.8
+[debug] Getting compiler-interface from component compiler for Scala 2.11.8
+[debug] Running cached compiler 2b87e967, interfacing (CompilerInterface) with Scala compiler version 2.11.8
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-deprecation
+[debug] 	-unchecked
+[debug] 	-feature
+[debug] 	-Yrangepos
+[debug] 	-bootclasspath
+[debug] 	C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes;C:\Users\Lenovo\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+[debug] 	-classpath
+[debug] 	E:\scala\Week2\FSet\target\scala-2.11\classes;C:\Users\Lenovo\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar;C:\Users\Lenovo\.ivy2\cache\com.persist\persist-json_2.11\jars\persist-json_2.11-1.1.3.jar;C:\Users\Lenovo\.ivy2\cache\com.chuusai\shapeless_2.11\bundles\shapeless_2.11-2.3.0.jar;C:\Users\Lenovo\.ivy2\cache\org.typelevel\macro-compat_2.11\jars\macro-compat_2.11-1.1.1.jar;C:\Users\Lenovo\.ivy2\cache\org.mapdb\mapdb\bundles\mapdb-3.0.1.jar;C:\Users\Lenovo\.ivy2\cache\org.jetbrains.kotlin\kotlin-stdlib\jars\kotlin-stdlib-1.0.2.jar;C:\Users\Lenovo\.ivy2\cache\org.jetbrains.kotlin\kotlin-runtime\jars\kotlin-runtime-1.0.2.jar;C:\Users\Lenovo\.ivy2\cache\org.eclipse.collections\eclipse-collections-api\bundles\eclipse-collections-api-7.1.0.jar;C:\Users\Lenovo\.ivy2\cache\net.jcip\jcip-annotations\jars\jcip-annotations-1.0.jar;C:\Users\Lenovo\.ivy2\cache\org.eclipse.collections\eclipse-collections\bundles\eclipse-collections-7.1.0.jar;C:\Users\Lenovo\.ivy2\cache\org.eclipse.collections\eclipse-collections-forkjoin\bundles\eclipse-collections-forkjoin-7.1.0.jar;C:\Users\Lenovo\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\Lenovo\.ivy2\cache\net.jpountz.lz4\lz4\jars\lz4-1.3.0.jar;C:\Users\Lenovo\.ivy2\cache\org.mapdb\elsa\bundles\elsa-3.0.0-M5.jar;C:\Users\Lenovo\.ivy2\cache\jline\jline\jars\jline-2.14.2.jar
+[error] E:\scala\Week2\FSet\src\main\scala\com\persist\FSet\FSet.scala:53: '=>' expected but 'case' found.
+[error]         case EmptyFSet =>accum
+[error]         ^
+[error] one error found
+[debug] Compilation failed (CompilerInterface)
+[error] (compile:compileIncremental) Compilation failed

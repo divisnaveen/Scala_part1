@@ -1,0 +1,37 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/git/uw/week1/assign1/src/main/scala/com/persist/uw/examples/Easter.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/git/uw/week1/assign1/src/main/scala/com/persist/uw/examples/Easter.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/git/uw/week1/assign1/src/main/scala/com/persist/uw/examples/Easter.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/git/uw/week1/assign1/src/main/scala/com/persist/uw/examples/Easter.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /git/uw/week1/assign1/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 3a0c17b2, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-Yrangepos[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes:/Users/nestor/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/git/uw/week1/assign1/target/scala-2.11/classes:/Users/nestor/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar:/Users/nestor/.ivy2/cache/com.persist/persist-json_2.11/jars/persist-json_2.11-1.1.3.jar:/Users/nestor/.ivy2/cache/com.chuusai/shapeless_2.11/bundles/shapeless_2.11-2.3.0.jar:/Users/nestor/.ivy2/cache/org.typelevel/macro-compat_2.11/jars/macro-compat_2.11-1.1.1.jar:/Users/nestor/.ivy2/cache/org.mapdb/mapdb/bundles/mapdb-3.0.1.jar:/Users/nestor/.ivy2/cache/org.jetbrains.kotlin/kotlin-stdlib/jars/kotlin-stdlib-1.0.2.jar:/Users/nestor/.ivy2/cache/org.jetbrains.kotlin/kotlin-runtime/jars/kotlin-runtime-1.0.2.jar:/Users/nestor/.ivy2/cache/org.eclipse.collections/eclipse-collections-api/bundles/eclipse-collections-api-7.1.0.jar:/Users/nestor/.ivy2/cache/net.jcip/jcip-annotations/jars/jcip-annotations-1.0.jar:/Users/nestor/.ivy2/cache/org.eclipse.collections/eclipse-collections/bundles/eclipse-collections-7.1.0.jar:/Users/nestor/.ivy2/cache/org.eclipse.collections/eclipse-collections-forkjoin/bundles/eclipse-collections-forkjoin-7.1.0.jar:/Users/nestor/.ivy2/cache/com.google.guava/guava/bundles/guava-19.0.jar:/Users/nestor/.ivy2/cache/net.jpountz.lz4/lz4/jars/lz4-1.3.0.jar:/Users/nestor/.ivy2/cache/org.mapdb/elsa/bundles/elsa-3.0.0-M5.jar:/Users/nestor/.ivy2/cache/jline/jline/jars/jline-2.14.2.jar:/Users/nestor/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/jars/scalac-scoverage-runtime_2.11-1.1.1.jar:/Users/nestor/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/jars/scalac-scoverage-plugin_2.11-1.1.1.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.551541096 s[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

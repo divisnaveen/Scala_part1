@@ -1,0 +1,7 @@
+sbt
+E:
+cd E:
+exit
+run
+test
+exit
